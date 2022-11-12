@@ -1,0 +1,46 @@
+2022-11-12 21:08:09.005 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:08:23.699 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id]
+2022-11-12 21:08:23.897 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:14:56.838 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-11-12 21:14:57.062 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:14:57.405 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:14:57.449 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:14:57.454 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:14:57.456 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:14:57.477 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-12 21:14:57.493 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-12 21:14:57.525 +02:00 [INF] User profile is available. Using 'C:\Users\abanoub.makram\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-12 21:14:57.688 +02:00 [INF] Now listening on: https://localhost:7054
+2022-11-12 21:14:57.690 +02:00 [INF] Now listening on: http://localhost:5054
+2022-11-12 21:14:57.693 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 21:14:57.694 +02:00 [INF] Hosting environment: Development
+2022-11-12 21:14:57.695 +02:00 [INF] Content root path: D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\
+2022-11-12 21:14:58.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 21:14:58.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 229.2328ms
+2022-11-12 21:14:58.599 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 21:14:58.599 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 21:14:58.607 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 7.4815ms
+2022-11-12 21:14:58.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.9218ms
+2022-11-12 21:14:58.769 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 21:14:58.909 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 140.6474ms
+2022-11-12 21:15:51.437 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 21:15:51.457 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 19.7380ms
+2022-11-12 21:15:51.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 21:15:51.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 21:15:51.475 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 2.6876ms
+2022-11-12 21:15:51.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.2115ms
+2022-11-12 21:15:51.687 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 21:15:51.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 9.1790ms
+2022-11-12 21:16:00.058 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search - -
+2022-11-12 21:16:00.190 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:16:00.217 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).

@@ -1,0 +1,33 @@
+2022-11-12 21:16:00.261 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:19:03.588 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-11-12 21:19:03.819 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:19:04.162 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:19:04.212 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:19:04.220 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:19:04.222 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:19:04.244 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-12 21:19:04.261 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-12 21:19:04.302 +02:00 [INF] User profile is available. Using 'C:\Users\abanoub.makram\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-12 21:19:04.465 +02:00 [INF] Now listening on: https://localhost:7054
+2022-11-12 21:19:04.466 +02:00 [INF] Now listening on: http://localhost:5054
+2022-11-12 21:19:04.469 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 21:19:04.470 +02:00 [INF] Hosting environment: Development
+2022-11-12 21:19:04.471 +02:00 [INF] Content root path: D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\
+2022-11-12 21:19:05.248 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 21:19:05.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 284.5328ms
+2022-11-12 21:19:05.546 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 21:19:05.546 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 21:19:05.556 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 9.6764ms
+2022-11-12 21:19:05.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.9576ms
+2022-11-12 21:19:05.688 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 21:19:05.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 122.2381ms
+2022-11-12 21:19:41.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search - -
+2022-11-12 21:19:41.701 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:19:41.751 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).

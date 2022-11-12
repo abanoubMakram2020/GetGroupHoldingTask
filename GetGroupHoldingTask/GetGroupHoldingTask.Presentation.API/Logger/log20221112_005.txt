@@ -1,0 +1,76 @@
+2022-11-12 21:00:20.190 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:00:20.390 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-11-12 21:00:38.118 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:00:51.969 +02:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search(ICustomerSearchUseCase customerSearchUseCase, CustomerSearchInputDTO model) in D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\Areas\V1_0\Controllers\CustomerController.cs:line 16
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SharedKernal.Middlewares.Exception.ExceptionHandler.Invoke(HttpContext context) in D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\SharedKernal\Middlewares\Exception\ExceptionHandler.cs:line 31
+2022-11-12 21:00:56.947 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:01:09.731 +02:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search(ICustomerSearchUseCase customerSearchUseCase, CustomerSearchInputDTO model) in D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\Areas\V1_0\Controllers\CustomerController.cs:line 16
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SharedKernal.Middlewares.Exception.ExceptionHandler.Invoke(HttpContext context) in D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\SharedKernal\Middlewares\Exception\ExceptionHandler.cs:line 31
+2022-11-12 21:01:28.182 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:02:49.175 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-11-12 21:02:49.403 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:02:49.739 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:02:49.789 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:02:49.798 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:02:49.801 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:02:49.820 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-12 21:02:49.839 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-12 21:02:49.873 +02:00 [INF] User profile is available. Using 'C:\Users\abanoub.makram\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-12 21:02:50.050 +02:00 [INF] Now listening on: https://localhost:7054
+2022-11-12 21:02:50.051 +02:00 [INF] Now listening on: http://localhost:5054
+2022-11-12 21:02:50.053 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 21:02:50.054 +02:00 [INF] Hosting environment: Development
+2022-11-12 21:02:50.055 +02:00 [INF] Content root path: D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\
+2022-11-12 21:02:50.757 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 21:02:50.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 237.3437ms
+2022-11-12 21:02:51.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 21:02:51.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 21:02:51.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 13.5719ms
+2022-11-12 21:02:51.076 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.2788ms
+2022-11-12 21:02:51.267 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 21:02:51.407 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 141.1347ms
+2022-11-12 21:03:02.199 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ba&CustomerNameSearchOperator=contains - -
+2022-11-12 21:03:02.309 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:03:02.353 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).
+2022-11-12 21:03:05.506 +02:00 [INF] Executed action GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API) in 3141.7504ms
+2022-11-12 21:03:05.508 +02:00 [INF] Executed endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:03:05.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ba&CustomerNameSearchOperator=contains - - - 200 439 application/json 3315.7442ms

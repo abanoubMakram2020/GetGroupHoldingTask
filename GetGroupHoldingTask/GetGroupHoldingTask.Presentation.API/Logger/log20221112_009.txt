@@ -1,0 +1,39 @@
+2022-11-12 21:19:41.827 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:37:21.593 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-11-12 21:37:21.847 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:37:22.335 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:37:22.376 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:37:22.382 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 21:37:22.385 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 21:37:22.407 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-12 21:37:22.423 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-12 21:37:22.453 +02:00 [INF] User profile is available. Using 'C:\Users\abanoub.makram\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-12 21:37:22.630 +02:00 [INF] Now listening on: https://localhost:7054
+2022-11-12 21:37:22.632 +02:00 [INF] Now listening on: http://localhost:5054
+2022-11-12 21:37:22.635 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 21:37:22.636 +02:00 [INF] Hosting environment: Development
+2022-11-12 21:37:22.637 +02:00 [INF] Content root path: D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\
+2022-11-12 21:37:23.432 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 21:37:23.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 243.0621ms
+2022-11-12 21:37:23.695 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 21:37:23.695 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 21:37:23.706 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 8.2820ms
+2022-11-12 21:37:23.757 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.6611ms
+2022-11-12 21:37:23.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 21:37:24.042 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 138.2897ms
+2022-11-12 21:38:30.335 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?Job=foot&JobSearchOperator=contains - -
+2022-11-12 21:38:30.461 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:38:30.503 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).
+2022-11-12 21:38:59.242 +02:00 [INF] Executed action GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API) in 28721.369ms
+2022-11-12 21:38:59.248 +02:00 [INF] Executed endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:38:59.254 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?Job=foot&JobSearchOperator=contains - - - 200 121 application/json 28919.5927ms
+2022-11-12 21:39:20.788 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?Job=foot&JobSearchOperator=contains - -
+2022-11-12 21:39:20.794 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 21:39:20.797 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).

@@ -1,0 +1,336 @@
+2022-11-12 21:40:43.973 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:40:47.866 +02:00 [INF] Executed DbCommand (45ms) [Parameters=[@__model_Data_CustomerName_0='aba' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_CustomerName_0 LIKE N'') OR (CHARINDEX(@__model_Data_CustomerName_0, [c].[Name]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:40:48.067 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:40:58.558 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:41:01.396 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_CustomerName_0='ram' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_CustomerName_0 LIKE N'') OR (CHARINDEX(@__model_Data_CustomerName_0, [c].[Name]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:41:01.396 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:41:24.848 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:41:29.865 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Data_CustomerName_0='Abanoub ' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_CustomerName_0 LIKE N'') OR (CHARINDEX(@__model_Data_CustomerName_0, [c].[Name]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:41:29.866 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:41:46.935 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:41:49.833 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_CustomerName_0='Abanoub Makram ' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[Name] = @__model_Data_CustomerName_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:41:49.833 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:42:14.832 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:42:17.456 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_CustomerName_0='Abanoub Makram ' (Size = 256), @__model_Data_Job_1='wwwww' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ([c].[Name] = @__model_Data_CustomerName_0) AND ((@__model_Data_Job_1 LIKE N'') OR (CHARINDEX(@__model_Data_Job_1, [c].[Job]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:42:17.457 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:42:32.128 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:42:38.292 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_CustomerName_0='Abanoub Makram ' (Size = 256), @__model_Data_Job_1='eng' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ([c].[Name] = @__model_Data_CustomerName_0) AND ((@__model_Data_Job_1 LIKE N'') OR (CHARINDEX(@__model_Data_Job_1, [c].[Job]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:42:38.293 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:42:48.706 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:42:53.337 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Data_CustomerName_0='Abanoub Makram ' (Size = 256), @__model_Data_Job_1='eng' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ([c].[Name] = @__model_Data_CustomerName_0) AND ([c].[Job] = @__model_Data_Job_1)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:42:53.337 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:43:24.205 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:43:24.210 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Data_Job_0='foot' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Job_0 LIKE N'') OR (CHARINDEX(@__model_Data_Job_0, [c].[Job]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:43:24.210 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:43:39.980 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:43:39.984 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_Job_0='foot' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Job_0 LIKE N'') OR (CHARINDEX(@__model_Data_Job_0, [c].[Job]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:43:39.984 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:43:49.601 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:43:49.603 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Data_Job_0='Footballer' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Job_0 LIKE N'') OR (CHARINDEX(@__model_Data_Job_0, [c].[Job]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:43:49.604 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:43:57.421 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:43:57.426 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Job_0='Footballer' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[Job] = @__model_Data_Job_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:43:57.426 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:05.524 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:05.525 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Job_0='Footballe' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[Job] = @__model_Data_Job_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:05.525 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:11.121 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:11.122 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Job_0='Footballe' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Job_0 LIKE N'') OR (CHARINDEX(@__model_Data_Job_0, [c].[Job]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:11.122 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:28.643 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:28.648 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:28.648 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:39.216 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:39.221 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Address_0='cai' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:39.222 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:46.569 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:46.580 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__model_Data_Address_0='cai' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[Address] = @__model_Data_Address_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:46.580 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:44:52.304 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:44:52.306 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Data_Address_0='cairo' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[Address] = @__model_Data_Address_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:44:52.306 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:45:02.278 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:45:02.285 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Address_0='cairo' (Size = 64), @__model_Data_Phone_1='0127' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ([c].[Address] = @__model_Data_Address_0) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:45:02.285 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:45:08.976 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:45:08.981 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Phone_0='0127' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Phone_0 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_0, [c].[Phone]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:45:08.981 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:45:16.191 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:45:16.192 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Phone_0='010' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Phone_0 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_0, [c].[Phone]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:45:16.192 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:45:28.326 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:45:28.327 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Address_0='giza' (Size = 64), @__model_Data_Phone_1='010' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ([c].[Address] = @__model_Data_Address_0) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:45:28.328 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:45:44.026 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:45:44.027 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Phone_0='010' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (@__model_Data_Phone_0 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_0, [c].[Phone]) > 0)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:45:44.028 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:46:05.573 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:46:05.580 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Address_0='giz' (Size = 64), @__model_Data_Phone_1='010' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ((@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:46:05.580 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:46:22.738 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:46:22.739 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Address_0='giz' (Size = 64), @__model_Data_Phone_1='010' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE ((@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:46:22.739 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:46:42.722 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:46:42.728 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_Address_0='giz' (Size = 64), @__model_Data_Phone_1='010' (Size = 16), @__model_Data_Email_2='aba' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (((@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))) AND ((@__model_Data_Email_2 LIKE N'') OR (CHARINDEX(@__model_Data_Email_2, [c].[Email]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:46:42.729 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:46:49.952 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:46:49.953 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_Address_0='giz' (Size = 64), @__model_Data_Phone_1='010' (Size = 16), @__model_Data_Email_2='gmai' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (((@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))) AND ((@__model_Data_Email_2 LIKE N'') OR (CHARINDEX(@__model_Data_Email_2, [c].[Email]) > 0))
+ORDER BY [c].[Id] DESC
+2022-11-12 21:46:49.953 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:47:02.998 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:47:03.005 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__model_Data_Address_0='giz' (Size = 64), @__model_Data_Phone_1='010' (Size = 16), @__model_Data_Email_2='Akram@gmail.com' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (((@__model_Data_Address_0 LIKE N'') OR (CHARINDEX(@__model_Data_Address_0, [c].[Address]) > 0)) AND ((@__model_Data_Phone_1 LIKE N'') OR (CHARINDEX(@__model_Data_Phone_1, [c].[Phone]) > 0))) AND ([c].[Email] = @__model_Data_Email_2)
+ORDER BY [c].[Id] DESC
+2022-11-12 21:47:03.005 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:47:50.959 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:47:51.010 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__model_Data_NumberOfOrders_0='2' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COUNT(*)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_NumberOfOrders_0
+ORDER BY [c].[Id]
+2022-11-12 21:47:51.011 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:48:00.265 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:48:00.275 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Data_NumberOfOrders_0='2' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COUNT(*)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) > @__model_Data_NumberOfOrders_0
+ORDER BY [c].[Id]
+2022-11-12 21:48:00.275 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:48:05.869 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:48:05.878 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Data_NumberOfOrders_0='2' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COUNT(*)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) < @__model_Data_NumberOfOrders_0
+ORDER BY [c].[Id]
+2022-11-12 21:48:05.878 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:48:20.509 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:48:20.512 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_NumberOfOrders_0='2' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COUNT(*)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_NumberOfOrders_0
+ORDER BY [c].[Id]
+2022-11-12 21:48:20.512 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:48:28.490 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:48:28.496 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_NumberOfOrders_0='2' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COUNT(*)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_NumberOfOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:48:28.496 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:48:50.935 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:48:50.957 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='10000' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:48:50.958 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:49:10.604 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:49:10.609 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='10000.00' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:49:10.609 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:49:50.212 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:50:14.894 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='10000.00' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:50:14.894 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:50:31.054 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:50:33.089 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='10000' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) > @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:50:33.089 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:50:43.466 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:50:45.090 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='10000' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) < @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:50:45.091 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:51:06.465 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:51:09.751 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='3000' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:51:09.751 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:51:33.047 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:51:33.051 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Data_TotalAmountOfTotalOrders_0='11000' (Nullable = true) (Precision = 18) (Scale = 2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE (
+    SELECT COALESCE(SUM([o].[TotalAmount]), 0.0)
+    FROM [dbo].[Order] AS [o]
+    WHERE [c].[Id] = [o].[CustomerId]) = @__model_Data_TotalAmountOfTotalOrders_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:51:33.051 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:51:59.422 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:51:59.434 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__model_Data_DateOfBirth_0='1990-08-11T00:00:00.0000000' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[DateOfBirth] = @__model_Data_DateOfBirth_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:51:59.435 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:52:07.823 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:52:07.824 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Data_DateOfBirth_0='1991-08-11T00:00:00.0000000' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[DateOfBirth] = @__model_Data_DateOfBirth_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:52:07.824 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:52:20.189 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:52:20.193 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_DateOfBirth_0='1991-08-11T00:00:00.0000000' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[DateOfBirth] > @__model_Data_DateOfBirth_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:52:20.193 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 21:52:35.338 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 21:52:35.344 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Data_DateOfBirth_0='1991-08-11T00:00:00.0000000' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+WHERE [c].[DateOfBirth] < @__model_Data_DateOfBirth_0
+ORDER BY [c].[Id] DESC
+2022-11-12 21:52:35.344 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json

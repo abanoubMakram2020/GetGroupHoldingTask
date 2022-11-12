@@ -1,0 +1,109 @@
+2022-11-12 20:23:40.836 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:23:41.834 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 20:23:42.062 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 20:24:11.670 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:24:11.678 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 20:24:11.678 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 20:24:31.985 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:24:52.339 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+2022-11-12 20:25:00.233 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 20:25:00.234 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 20:25:07.724 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:25:09.312 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 20:25:09.312 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 20:25:20.685 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:25:22.057 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedBy], [c].[DateCreated], [c].[DateOfBirth], [c].[Email], [c].[Job], [c].[Name], [c].[Phone]
+FROM [dbo].[Customer] AS [c]
+ORDER BY [c].[Id] DESC
+2022-11-12 20:25:22.057 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2022-11-12 20:25:46.810 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:26:17.939 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-11-12 20:26:18.314 +02:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: SensitiveDataLoggingEnabled 
+2022-11-12 20:26:18.748 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 20:26:18.810 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 20:26:18.817 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-12 20:26:18.821 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-12 20:26:18.854 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-12 20:26:18.876 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-12 20:26:18.915 +02:00 [INF] User profile is available. Using 'C:\Users\abanoub.makram\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-12 20:26:19.117 +02:00 [INF] Now listening on: https://localhost:7054
+2022-11-12 20:26:19.119 +02:00 [INF] Now listening on: http://localhost:5054
+2022-11-12 20:26:19.123 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 20:26:19.124 +02:00 [INF] Hosting environment: Development
+2022-11-12 20:26:19.125 +02:00 [INF] Content root path: D:\Abanoub\GetGroupHoldingTask\GetGroupHoldingTask\GetGroupHoldingTask.Presentation.API\
+2022-11-12 20:26:20.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 20:26:20.502 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 374.9196ms
+2022-11-12 20:26:20.509 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 20:26:20.509 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 20:26:20.527 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 17.0311ms
+2022-11-12 20:26:20.593 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.9243ms
+2022-11-12 20:26:20.669 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 20:26:20.832 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 162.9361ms
+2022-11-12 20:26:35.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ra&CustomerNameSearchOperator=1&OrderType=2 - -
+2022-11-12 20:26:35.198 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 20:26:35.228 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).
+2022-11-12 20:26:38.234 +02:00 [INF] Executed action GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API) in 2991.5658ms
+2022-11-12 20:26:38.240 +02:00 [INF] Executed endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 20:26:38.244 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ra&CustomerNameSearchOperator=1&OrderType=2 - - - 200 740 application/json 3169.9844ms
+2022-11-12 20:26:54.687 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ra&CustomerNameSearchOperator=2&OrderType=2 - -
+2022-11-12 20:26:54.688 +02:00 [INF] Executing endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 20:26:54.697 +02:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(GetGroupHoldingTask.Application.Interfases.UseCases.V1_0.CustomerUseCases.ICustomerSearchUseCase, GetGroupHoldingTask.Application.DTOs.InputDTOs.CustomerSearchInputDTO) on controller GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController (GetGroupHoldingTask.Presentation.API).
+2022-11-12 20:26:58.468 +02:00 [INF] Executed action GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API) in 3766.184ms
+2022-11-12 20:26:58.471 +02:00 [INF] Executed endpoint 'GetGroupHoldingTask.Presentation.API.Areas.V1_0.Controllers.CustomerController.Search (GetGroupHoldingTask.Presentation.API)'
+2022-11-12 20:26:58.473 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/api/v1.0/Customer/Search?CustomerName=ra&CustomerNameSearchOperator=2&OrderType=2 - - - 200 121 application/json 3785.9818ms
+2022-11-12 20:30:25.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 20:30:25.298 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 20.3119ms
+2022-11-12 20:30:25.320 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 20:30:25.320 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 20:30:25.325 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 5.0055ms
+2022-11-12 20:30:25.371 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.5401ms
+2022-11-12 20:30:25.528 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 20:30:25.532 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 4.3564ms
+2022-11-12 20:30:25.535 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/favicon-32x32.png - -
+2022-11-12 20:30:25.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/favicon-32x32.png - - - 200 628 image/png 19.9742ms
+2022-11-12 20:30:32.728 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 20:30:32.741 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 13.6245ms
+2022-11-12 20:30:32.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 20:30:32.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 20:30:32.755 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 1.7632ms
+2022-11-12 20:30:32.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.6870ms
+2022-11-12 20:30:32.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 20:30:32.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 4.2564ms
+2022-11-12 20:30:54.054 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 20:30:54.069 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 15.5719ms
+2022-11-12 20:30:54.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 20:30:54.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 20:30:54.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 10.1876ms
+2022-11-12 20:30:54.137 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.0877ms
+2022-11-12 20:30:54.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 20:30:54.218 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 4.6634ms
+2022-11-12 20:31:38.003 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/index.html - -
+2022-11-12 20:31:38.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/index.html - - - 200 - text/html;charset=utf-8 62.7952ms
+2022-11-12 20:31:38.095 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - -
+2022-11-12 20:31:38.099 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_framework/aspnetcore-browser-refresh.js - - - 200 12042 application/javascript;+charset=utf-8 4.2615ms
+2022-11-12 20:31:38.195 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/_vs/browserLink - -
+2022-11-12 20:31:38.573 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 378.9616ms
+2022-11-12 20:31:38.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - -
+2022-11-12 20:31:39.008 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7054/swagger/v1.0/swagger.json - - - 200 - application/json;charset=utf-8 18.9446ms
