@@ -19,6 +19,7 @@ Used Technologies(.Net 6):
 
 -Used EF Core 6 and migrate created entities.   
 
+- there are seed data it will be exist on your database aftr run project
 
 
 
